@@ -18,7 +18,7 @@ echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.zshrc
 
 # Some cask apps
 apps=(
-    chrome
+    google-chrome
 	firefoxdeveloperedition
 	slack
 	spotify
