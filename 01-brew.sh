@@ -22,11 +22,14 @@ apps=(
 	firefoxdeveloperedition
 	slack
 	spotify
-	messenger-native
+	aluxian-messenger
 )
 
 echo "Installing apps..."
-brew cask install ${apps[@]}
+for i in "${apps[@]}"
+do
+   brew cask install $i
+done
 
 # Development
 development_apps=(
@@ -35,13 +38,17 @@ development_apps=(
 	visual-studio-code
 )
 echo "Installing development apps..."
-brew cask install ${development_apps[@]}
+for i in "${development_apps[@]}"
+do
+   brew cask install $i
+done
 
 echo "installing vs code extensions..."
 vs_code_extensions=(
     auiworks.amvim
     felipe.nasc-touchbar
-    robertohuertasm.vscode-icons
+	Shan.code-settings-sync
+	robertohuertasm.vscode-icons
     Angular.ng-template
     PeterJausovec.vscode-docker
     christian-kohler.npm-intellisense
@@ -64,7 +71,9 @@ languages=(
 	go
 	dep
 )
-
-brew install ${languages[@]}
+for i in "${languages[@]}"
+do
+   brew install $i
+done
 
 echo "brew installations complete.."
