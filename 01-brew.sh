@@ -10,7 +10,7 @@ echo "Updating homebrew"
 brew update
 
 echo "Installing cask "
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 brew tap caskroom/versions
 
 echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.zshrc
