@@ -67,4 +67,4 @@ languages=(
 
 brew install ${languages[@]}
 
-echo "You are ready to code master..."
+echo "brew installations complete.."
