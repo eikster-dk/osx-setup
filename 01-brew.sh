@@ -29,13 +29,13 @@ echo "Installing apps..."
 brew cask install ${apps[@]}
 
 # Development
-devel_apps=(
+development_apps=(
 	docker
     gitkraken
 	visual-studio-code
 )
 echo "Installing development apps..."
-brew cask install ${devel_apps[@]}
+brew cask install ${development_apps[@]}
 
 echo "installing vs code extensions..."
 vs_code_extensions=(
