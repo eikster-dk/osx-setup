@@ -1,7 +1,10 @@
 #!/bin/sh
 
 echo "Giving correct permissions..."
-chmod +x ./01-brew.sh;
+brew bundle
+
+echo "Giving correct permissions..."
+chmod +x ./01-vscode.sh;
 chmod +x ./02-npm.sh;
 chmod +x ./03-docker.sh;
 
