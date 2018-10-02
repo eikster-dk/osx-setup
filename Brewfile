@@ -13,6 +13,7 @@ brew "node", link: false
 brew "docker"
 brew "docker-completion"
 brew "docker-compose-completion"
+brew "terraform"
 
 cask "google-cloud-sdk"
 cask "insomnia"
