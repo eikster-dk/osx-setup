@@ -7,7 +7,6 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 
 brew "go"
-brew "dep"
 brew "hugo"
 brew "node@10"
 brew "jq"
