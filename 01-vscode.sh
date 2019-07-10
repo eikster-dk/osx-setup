@@ -20,16 +20,3 @@ for i in "${vs_code_extensions[@]}"
 do
    code --install-extension $i
 done
-
-echo "installing development languages and tooling..."
-languages=(
-	nodejs
-	go
-	dep
-)
-for i in "${languages[@]}"
-do
-   brew install $i
-done
-
-echo "brew installations complete.."

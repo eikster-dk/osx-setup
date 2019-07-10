@@ -10,7 +10,15 @@ chmod +x ./03-docker.sh;
 
 
 echo "Starting installation..."
-./01-brew.sh;
+./01-vscode.sh;
 ./02-npm.sh;
+./03-docker.sh;
+
+echo "Symlinking stuff..."
+ln -s $(pwd)/vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s $(pwd)/vs-code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -s $(pwd)/vs-code/snippets/ ~/Library/Application\ Support/Code/User
+
+echo "Sync secrets..."
 
 echo "You are ready to code master..."
