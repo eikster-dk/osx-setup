@@ -15,9 +15,9 @@ echo "Starting installation..."
 ./03-docker.sh;
 
 echo "Symlinking stuff..."
-ln -s $(pwd)/vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -s $(pwd)/vs-code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-ln -s $(pwd)/vs-code/snippets/ ~/Library/Application\ Support/Code/User
+ln -sfn $(pwd)/vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sfn $(pwd)/vs-code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -sfn $(pwd)/vs-code/snippets/ ~/Library/Application\ Support/Code/User
 
 echo "Sync secrets..."
 
