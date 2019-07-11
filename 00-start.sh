@@ -21,4 +21,7 @@ ln -sfn $(pwd)/vs-code/snippets/ ~/Library/Application\ Support/Code/User
 
 echo "Sync secrets..."
 
+echo "settings up some mac stuff"
+defaults write -g ApplePressAndHoldEnabled -bool false 
+
 echo "You are ready to code master..."
