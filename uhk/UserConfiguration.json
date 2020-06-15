@@ -4608,7 +4608,10 @@
                 null,
                 null,
                 null,
-                null,
+                {
+                  "keyActionType": "switchKeymap",
+                  "keymapAbbreviation": "QWR"
+                },
                 null,
                 {
                   "keyActionType": "keystroke",
@@ -4621,30 +4624,10 @@
                   "scancode": 233
                 },
                 null,
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 37,
-                  "modifierMask": 64
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 38,
-                  "modifierMask": 64
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 37,
-                  "modifierMask": 96
-                },
-                {
-                  "keyActionType": "keystroke",
-                  "type": "basic",
-                  "scancode": 38,
-                  "modifierMask": 96
-                },
+                null,
+                null,
+                null,
+                null,
                 null,
                 {
                   "keyActionType": "keystroke",
@@ -4707,37 +4690,38 @@
             {
               "id": 1,
               "keyActions": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 {
                   "keyActionType": "keystroke",
-                  "type": "system",
-                  "scancode": 130
+                  "type": "basic",
+                  "scancode": 37,
+                  "modifierMask": 64
                 },
                 {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "QWR"
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 38,
+                  "modifierMask": 64
                 },
                 {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "DVO"
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 37,
+                  "modifierMask": 96
                 },
                 {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "COL"
+                  "keyActionType": "keystroke",
+                  "type": "basic",
+                  "scancode": 38,
+                  "modifierMask": 96
                 },
-                null,
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "DVM"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "COM"
-                },
-                null,
-                null,
-                null,
-                null,
-                null,
                 null,
                 null,
                 null,
@@ -5606,15 +5590,15 @@
             {
               "id": 0,
               "keyActions": [
+                null,
+                null,
+                null,
+                null,
+                null,
                 {
                   "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "TES"
+                  "keymapAbbreviation": "QWM"
                 },
-                null,
-                null,
-                null,
-                null,
-                null,
                 null,
                 {
                   "keyActionType": "keystroke",
@@ -5713,32 +5697,13 @@
             {
               "id": 1,
               "keyActions": [
-                {
-                  "keyActionType": "keystroke",
-                  "type": "system",
-                  "scancode": 130
-                },
                 null,
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "DVO"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "COL"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "QWM"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "DVM"
-                },
-                {
-                  "keyActionType": "switchKeymap",
-                  "keymapAbbreviation": "COM"
-                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
                 null,
                 null,
                 null,
