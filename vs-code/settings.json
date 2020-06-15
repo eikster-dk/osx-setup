@@ -2,17 +2,12 @@
 {
     "amVim.bindCtrlCommands": false,
     "git.autofetch": false,
-    "window.zoomLevel": 1,
-    "nasc-touchbar.toggleSidebar": true,
-    "csharp.referencesCodeLens.enabled": true,
-    "FSharp.fsacRuntime": "netcore",
-    "workbench.colorTheme": "Tomorrow Night Blue",
+    "window.zoomLevel": 0,
     "go.addTags": {
         "transform": "camelcase",
-        "promptForTags": true
-    },
-    "go.alternateTools": {
-        "go-langserver": "bingo",
+        "promptForTags": true,
+        "options": "json=omitempty,firestore=omitempty",
+        "tags": "json"
     },
     "go.languageServerExperimentalFeatures": {
         "format": true,
@@ -25,26 +20,11 @@
     "editor.renderControlCharacters": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "terminal.integrated.rendererType": "dom",
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "vsicons.projectDetection.autoReload": true
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
 }

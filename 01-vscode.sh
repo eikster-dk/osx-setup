@@ -10,10 +10,6 @@ vs_code_extensions=(
     Dart-Code.dart-code
     Dart-Code.flutter
     ms-vscode.Go
-    ms-azuretools.vscode-azurefunctions
-    ms-azuretools.vscode-docker
-    WallabyJs.quokka-vscode
-    WallabyJs.wallaby-vscode
 )
 
 for i in "${vs_code_extensions[@]}"
