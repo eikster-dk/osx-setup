@@ -106,12 +106,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias auth2aws="docker run -v "${HOME}:/root/" --rm -ti harbor.aws.c.dk/odin/saml2aws:latest"
-alias k='kubectl'
-alias goland="~/jetbrains/goland"
-alias rider="~/jetbrains/rider"
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
+source ~/.aliases
