@@ -45,7 +45,6 @@ brew "kyleconroy/sqlc/sqlc"
 brew "nektos/tap/act"
 brew "versent/taps/saml2aws"
 brew "windmilleng/tap/tilt"
-brew "romkatv/powerlevel10k/powerlevel10k"
 
 cask "1password"
 cask "1password-cli"

@@ -1,4 +1,9 @@
 #!/bin/sh
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+# Download and install all available updates for your system
+softwareupdate -i -a
 
 echo "installing brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -8,7 +13,7 @@ mkdir ~/code
 
 git clone https://github.com/eikc/osx-setup.git ~/code/osx-setup
 
-cd ~/code/osx-setup
+cd ~/code/osx-setup
 
 echo "Installing Brewfile"
 brew bundle
