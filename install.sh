@@ -1,5 +1,15 @@
 #!/bin/sh
 
+echo "installing brew"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# downloading repository
+mkdir ~/code
+
+git clone https://github.com/eikc/osx-setup.git ~/code/osx-setup
+
+cd ~/code/osx-setup
+
 echo "Installing Brewfile"
 brew bundle
 

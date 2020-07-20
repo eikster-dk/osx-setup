@@ -112,3 +112,4 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source ~/.aliases
+export PATH="/usr/local/opt/node@12/bin:$PATH"
